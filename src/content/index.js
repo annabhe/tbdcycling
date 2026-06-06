@@ -29,28 +29,28 @@ export const featuredPosterId = "jun-06-2026";
 export const POSTERS = [
   {
     id: "jun-06-2026",
-    src: "/content/posters/2026-06-06.jpg",
+    src: "content/posters/2026-06-06.jpg",
     title: "Eden Pickleball Ride",
     date: "June 06, 2026",
     alt: "",
   },
   {
     id: "may-30-2026",
-    src: "/content/posters/2026-05-30.png",
+    src: "content/posters/2026-05-30.png",
     title: "Hillwood Estates Ride",
     date: "May 30, 2026",
     alt: "",
   },
   {
     id: "may-16-2026",
-    src: "/content/posters/2026-05-16.png",
+    src: "content/posters/2026-05-16.png",
     title: "Alexandria Coffee Ride",
     date: "May 16, 2026",
     alt: "Alexandria coffee ride poster",
   },
   {
     id: "may-02-2026",
-    src: "/content/posters/2026-05-02.png",
+    src: "content/posters/2026-05-02.png",
     title: "Vienna Coffee Ride",
     date: "May 02, 2026",
     alt: "Vienna Coffee Ride poster",
@@ -65,13 +65,13 @@ export const POSTERS = [
 export const PHOTOS = [
   // {
   //   id: "photo-may-16-2026",
-  //   src: "/content/photos/2026-05-16.png",
+  //   src: "content/photos/2026-05-16.png",
   //   alt: "Alexandria MGM group photo",
   //   caption: "Alexandria MGM",
   // },
   // {
   //   id: "photo-may-02-2026",
-  //   src: "/content/photos/2026-05-02.png",
+  //   src: "content/photos/2026-05-02.png",
   //   alt: "Vienna Coffee Ride Photo",
   //   caption: "Vienna Coffee Ride",
   // }
