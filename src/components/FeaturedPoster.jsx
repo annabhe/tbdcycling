@@ -60,12 +60,12 @@ export default function FeaturedPoster({ onOpen }) {
         </button>
 
         {/* Ride details */}
-        <div className="flex flex-col justify-end pb-2">
+        {/* <div className="flex flex-col justify-end pb-2">
           <div className="w-12 h-1 bg-signal mb-6" />
           <p className="font-body text-sm text-mist leading-relaxed max-w-xs">
             Details and route info coming soon. Watch this space — or check the group chat.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );
