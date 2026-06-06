@@ -17,67 +17,62 @@
  * ─────────────────────────────────────────────────────────
  */
 
-// ── Posters ──────────────────────────────────────────────
-// Each poster appears in the grid. The featured poster is
-// controlled by `featuredPosterId` below.
-
-export const POSTERS = [
-  {
-    id: "ride-jun-2025",
-    src: "/content/posters/ride-jun-2025.jpg",
-    title: "Summer Solstice Ride",
-    date: "June 21, 2025",
-    alt: "Summer Solstice Ride poster",
-  },
-  {
-    id: "ride-may-2025",
-    src: "/content/posters/ride-may-2025.jpg",
-    title: "May Day Spin",
-    date: "May 4, 2025",
-    alt: "May Day Spin poster",
-  },
-  {
-    id: "ride-apr-2025",
-    src: "/content/posters/ride-apr-2025.jpg",
-    title: "Spring Awakening",
-    date: "April 13, 2025",
-    alt: "Spring Awakening poster",
-  },
-];
-
 // ── Featured poster ───────────────────────────────────────
 // Set this to the `id` of whichever poster should be
 // displayed large at the top of the home page.
 
-export const featuredPosterId = "ride-jun-2025";
+export const featuredPosterId = "jun-06-2026";
+
+// ── Posters ──────────────────────────────────────────────
+// Each poster appears in the grid. 
+
+export const POSTERS = [
+  {
+    id: "jun-06-2026",
+    src: "/content/posters/2026-06-06.jpg",
+    title: "Eden Pickleball Ride",
+    date: "June 06, 2026",
+    alt: "",
+  },
+  {
+    id: "may-30-2026",
+    src: "/content/posters/2026-05-30.png",
+    title: "Hillwood Estates Ride",
+    date: "May 30, 2026",
+    alt: "",
+  },
+  {
+    id: "may-16-2026",
+    src: "/content/posters/2026-05-16.png",
+    title: "Alexandria Coffee Ride",
+    date: "May 16, 2026",
+    alt: "Alexandria coffee ride poster",
+  },
+  {
+    id: "may-02-2026",
+    src: "/content/posters/2026-05-02.png",
+    title: "Vienna Coffee Ride",
+    date: "May 02, 2026",
+    alt: "Vienna Coffee Ride poster",
+  },
+
+];
 
 // ── Group photos ─────────────────────────────────────────
 // Ride group photos shown in the Instagram-style grid
 // alongside the posters.
 
 export const PHOTOS = [
-  {
-    id: "photo-may-2025-1",
-    src: "/content/photos/may-group-1.jpg",
-    alt: "May Day Spin group photo",
-    caption: "May Day Spin",
-  },
-  {
-    id: "photo-may-2025-2",
-    src: "/content/photos/may-group-2.jpg",
-    alt: "May Day Spin finish line",
-    caption: "May Day Spin — finish line",
-  },
-  {
-    id: "photo-apr-2025-1",
-    src: "/content/photos/apr-group-1.jpg",
-    alt: "Spring Awakening group photo",
-    caption: "Spring Awakening",
-  },
-  {
-    id: "photo-apr-2025-2",
-    src: "/content/photos/apr-group-2.jpg",
-    alt: "Spring Awakening rolling",
-    caption: "Spring Awakening — en route",
-  },
+  // {
+  //   id: "photo-may-16-2026",
+  //   src: "/content/photos/2026-05-16.png",
+  //   alt: "Alexandria MGM group photo",
+  //   caption: "Alexandria MGM",
+  // },
+  // {
+  //   id: "photo-may-02-2026",
+  //   src: "/content/photos/2026-05-02.png",
+  //   alt: "Vienna Coffee Ride Photo",
+  //   caption: "Vienna Coffee Ride",
+  // }
 ];
