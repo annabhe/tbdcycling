@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import Leaderboard from "./pages/Leaderboard.jsx";
@@ -6,7 +6,7 @@ import HolidayParty from "./pages/HolidayParty.jsx";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <main>
         <Routes>
@@ -15,6 +15,6 @@ export default function App() {
           <Route path="/holiday-party" element={<HolidayParty />} />
         </Routes>
       </main>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
