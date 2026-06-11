@@ -27,11 +27,11 @@ export default function MediaGrid({ onOpen }) {
   if (items.length === 0) return null;
 
   return (
-    <section className="px-6 py-10 pb-24 max-w-6xl mx-auto">
+    <section className="px-6 py-4 pb-24 max-w-6xl mx-auto">
       {/* Section label */}
       <div className="flex items-center gap-4 mb-8">
         <span className="font-mono text-xs tracking-[0.3em] text-signal uppercase">
-          Rides &amp; Photos
+          Past Rides
         </span>
         <div className="flex-1 h-px bg-white/10" />
         <span className="font-mono text-xs text-mist">{items.length} items</span>

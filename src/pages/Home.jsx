@@ -3,6 +3,7 @@ import PageHeader from "../components/PageHeader.jsx";
 import FeaturedPoster from "../components/FeaturedPoster.jsx";
 import MediaGrid from "../components/MediaGrid.jsx";
 import Modal from "../components/Modal.jsx";
+import UpcomingRides from "../components/UpcomingRides.jsx";
 
 export default function Home() {
   const [modalItem, setModalItem] = useState(null);
@@ -15,7 +16,8 @@ export default function Home() {
       <FeaturedPoster onOpen={setModalItem} />
       {/* Thin rule between sections */}
       <div className="mx-6 border-t border-white/5" />
-
+      <UpcomingRides />
+      <div className="mx-6 border-t border-white/5" />
       <MediaGrid onOpen={setModalItem} />
 
       {/* Modal */}
