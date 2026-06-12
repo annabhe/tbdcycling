@@ -29,7 +29,7 @@ export const featuredPosterId = "jun-13-2026";
 export const POSTERS = [
   {
     id: "jun-13-2026",
-    src: "content/posters/2026-13-06.jpg",
+    src: "content/posters/2026-06-13.jpg",
     title: "CCT-RCP Loop",
     date: "June 13, 2026",
     alt: "",
