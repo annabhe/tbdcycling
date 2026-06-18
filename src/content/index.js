@@ -21,16 +21,23 @@
 // Set this to the `id` of whichever poster should be
 // displayed large at the top of the home page.
 
-export const featuredPosterId = "jun-13-2026";
+export const featuredPosterId = "jun-20-2026";
 
 // ── Posters ──────────────────────────────────────────────
 // Each poster appears in the grid. 
 
 export const POSTERS = [
   {
+    id: "jun-20-2026",
+    src: "content/posters/2026-06-20.png",
+    title: "ART-MBT Ride",
+    date: "June 20, 2026",
+    alt: "",
+  },
+  {
     id: "jun-13-2026",
     src: "content/posters/2026-06-13.png",
-    title: "CCT-RCP Loop",
+    title: "Milla's derniere balade; tu nous manques!",
     date: "June 13, 2026",
     alt: "",
   },
@@ -172,7 +179,6 @@ export const POSTERS = [
 ];
 
 export const UPCOMING_RIDES = [
-  { id: "jun-20-2026", date: "June 20, 2026", name: "ART Vigilante Ride" },
   { id: "jun-27-2026", date: "June 27, 2026", name: "TBD" },
   { id: "jul-04-2026", date: "July 04, 2026", name: "Harper's Ferry Overnighter" },
   { id: "jul-11-2026", date: "July 11, 2026", name: "Berry Picking Poolesville Farm Ride" },
