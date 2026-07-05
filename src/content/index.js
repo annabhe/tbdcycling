@@ -21,12 +21,19 @@
 // Set this to the `id` of whichever poster should be
 // displayed large at the top of the home page.
 
-export const featuredPosterId = "jun-20-2026";
+export const featuredPosterId = "2026-07-11";
 
 // ── Posters ──────────────────────────────────────────────
 // Each poster appears in the grid. 
 
 export const POSTERS = [
+  {
+    id: "2026-07-11",
+    src: "content/posters/2026-07-11.png",
+    title: "Elevation Sensation Ride",
+    date: "July 11, 2026",
+    alt: "",
+  },
   {
     id: "jun-20-2026",
     src: "content/posters/2026-06-20.png",
