@@ -17,22 +17,38 @@
  * ─────────────────────────────────────────────────────────
  */
 
+
+export const UPCOMING_RIDES = [
+  { id: "jul-18-2026", date: "July 18, 2026", name: "Fort Washington Ride" },
+  { id: "jul-25-2026", date: "July 25, 2026", name: "Shenandoah MassSky Loop" },
+  { id: "aug-01-2026", date: "August 01, 2026", name: "Ultimate TBD Century" },
+  { id: "aug-08-2026", date: "August 08, 2026", name: "Harper's Ferry Overnighter" },
+  { id: "aug-15-2026", date: "August 15, 2026", name: "TBD" },
+]
+
 // ── Featured poster ───────────────────────────────────────
 // Set this to the `id` of whichever poster should be
 // displayed large at the top of the home page.
 
-export const featuredPosterId = "2026-07-11";
+export const featuredPosterId = "2026-07-18";
 
 // ── Posters ──────────────────────────────────────────────
 // Each poster appears in the grid. 
 
 export const POSTERS = [
   {
+    id: "2026-07-18",
+    src: "content/posters/2026-07-18.png",
+    title: "Fort Washington and Custard Ride",
+    date: "July 18, 2026",
+    alt: "",
+  },
+  {
     id: "2026-07-11",
     src: "content/posters/2026-07-11.png",
     title: "Elevation Sensation Ride",
     date: "July 11, 2026",
-    alt: "",
+    alt: "hills 5ever",
   },
   {
     id: "jun-20-2026",
@@ -184,17 +200,6 @@ export const POSTERS = [
 
 
 ];
-
-export const UPCOMING_RIDES = [
-  { id: "jun-27-2026", date: "June 27, 2026", name: "TBD" },
-  { id: "jul-04-2026", date: "July 04, 2026", name: "Harper's Ferry Overnighter" },
-  { id: "jul-11-2026", date: "July 11, 2026", name: "Berry Picking Poolesville Farm Ride" },
-  { id: "jul-18-2026", date: "July 18, 2026", name: "Fort Washington Ride" },
-  { id: "jul-25-2026", date: "July 25, 2026", name: "Shenandoah MassSky Loop" },
-  { id: "aug-01-2026", date: "August 01, 2026", name: "ART / Kenilworth Ride" },
-  { id: "aug-08-2026", date: "August 08, 2026", name: "Ultimate TBD Century" },
-  { id: "aug-15-2026", date: "August 15, 2026", name: "TBD" },
-]
 
 // ── Group photos ─────────────────────────────────────────
 // Ride group photos shown in the Instagram-style grid
