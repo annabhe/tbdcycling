@@ -19,10 +19,8 @@
 
 
 export const UPCOMING_RIDES = [
-  { id: "jul-18-2026", date: "July 18, 2026", name: "Fort Washington Ride" },
-  { id: "jul-25-2026", date: "July 25, 2026", name: "Shenandoah MassSky Loop" },
-  { id: "aug-01-2026", date: "August 01, 2026", name: "Ultimate TBD Century" },
-  { id: "aug-08-2026", date: "August 08, 2026", name: "Harper's Ferry Overnighter" },
+  { id: "aug-07-2026", date: "August 07, 2026", name: "TBD POTLUCK PICNIC!!!" },
+  { id: "aug-08-2026", date: "August 08, 2026", name: "C&O-WOD Overnight Loop" },
   { id: "aug-15-2026", date: "August 15, 2026", name: "TBD" },
 ]
 
@@ -30,25 +28,32 @@ export const UPCOMING_RIDES = [
 // Set this to the `id` of whichever poster should be
 // displayed large at the top of the home page.
 
-export const featuredPosterId = "2026-07-18";
+export const featuredPosterId = "2026-08-01";
 
 // ── Posters ──────────────────────────────────────────────
 // Each poster appears in the grid. 
 
 export const POSTERS = [
   {
+    id: "2026-08-01",
+    src: "content/posters/2026-08-01.png",
+    title: "Fort Washington and Custard Ride",
+    date: "August 1, 2026",
+    alt: "",
+  },
+  {
     id: "2026-07-18",
     src: "content/posters/2026-07-18.png",
-    title: "Fort Washington and Custard Ride",
+    title: "I scream for ice cream (and hills)",
     date: "July 18, 2026",
     alt: "",
   },
   {
     id: "2026-07-11",
     src: "content/posters/2026-07-11.png",
-    title: "Elevation Sensation Ride",
+    title: "hills 5eva!",
     date: "July 11, 2026",
-    alt: "hills 5ever",
+    alt: "hills 5eva!",
   },
   {
     id: "jun-20-2026",
