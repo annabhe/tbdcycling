@@ -12,9 +12,9 @@ Supported image formats: jpg, jpeg, png, webp, gif
 
 # Running Locally
 
-run `npm install` to install all packages
-run `npm run dev` to run it locally.
-visit `http://localhost:5173/tbdcycling/` 
+* run `npm install` to install all packages
+* run `npm run dev` to run it locally.
+* visit `http://localhost:5173/tbdcycling/` 
 
 # React + Vite
 
