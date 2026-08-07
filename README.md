@@ -1,3 +1,21 @@
+# TBDCycling Website 
+
+Site for a small DC-based cycling club.
+
+# Updating posters
+
+1. Drop the poster image in:  public/content/posters/
+2. Navigate to src/content/index.js
+   * Add a json entry to the POSTERS list 
+   * Set featuredPosterId to the new poster's id.
+Supported image formats: jpg, jpeg, png, webp, gif
+
+# Running Locally
+
+run `npm install` to install all packages
+run `npm run dev` to run it locally.
+visit `http://localhost:5173/tbdcycling/` 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

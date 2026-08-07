@@ -1,18 +1,12 @@
 /**
  * ─────────────────────────────────────────────────────────
  *  TBD CYCLING — CONTENT INDEX
- *  Edit this file to manage all site content.
  * ─────────────────────────────────────────────────────────
  *
  *  HOW TO ADD A NEW RIDE POSTER
  *  1. Drop the poster image in:  public/content/posters/
  *  2. Add an entry to POSTERS below (newest first).
  *  3. Set featuredPosterId to the new poster's id.
- *
- *  HOW TO ADD A GROUP PHOTO
- *  1. Drop the photo in:  public/content/photos/
- *  2. Add an entry to PHOTOS below (newest first).
- *
  *  Supported image formats: jpg, jpeg, png, webp, gif
  * ─────────────────────────────────────────────────────────
  */
@@ -22,13 +16,12 @@ export const UPCOMING_RIDES = [
 ]
 
 // ── Featured poster ───────────────────────────────────────
-// Set this to the `id` of whichever poster should be
-// displayed large at the top of the home page.
+// This poster is displayed at the top of the home page.
 
 export const featuredPosterId = "2026-08-08";
 
 // ── Posters ──────────────────────────────────────────────
-// Each poster appears in the grid. 
+// All posters appear in the grid. 
 
 export const POSTERS = [
   {
