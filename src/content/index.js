@@ -17,27 +17,38 @@
  * ─────────────────────────────────────────────────────────
  */
 
-
 export const UPCOMING_RIDES = [
-  { id: "aug-07-2026", date: "August 07, 2026", name: "TBD POTLUCK PICNIC!!!" },
-  { id: "aug-08-2026", date: "August 08, 2026", name: "C&O-WOD Overnight Loop" },
-  { id: "aug-15-2026", date: "August 15, 2026", name: "TBD" },
+  { id: "aug-15-2026", date: "August 15, 2026", name: "Military Road to Rare Bird" },
 ]
 
 // ── Featured poster ───────────────────────────────────────
 // Set this to the `id` of whichever poster should be
 // displayed large at the top of the home page.
 
-export const featuredPosterId = "2026-08-01";
+export const featuredPosterId = "2026-08-08";
 
 // ── Posters ──────────────────────────────────────────────
 // Each poster appears in the grid. 
 
 export const POSTERS = [
   {
+    id: "2026-08-08",
+    src: "content/posters/2026-08-08.png",
+    title: "Bethesda Ride",
+    date: "August 8, 2026",
+    alt: "",
+  },
+  {
+    id: "2026-08-07",
+    src: "content/posters/2026-08-07.png",
+    title: "Summer Picnic!",
+    date: "August 7, 2026",
+    alt: "",
+  },
+  {
     id: "2026-08-01",
     src: "content/posters/2026-08-01.png",
-    title: "Fort Washington and Custard Ride",
+    title: "Flowery Kenilworth back-to-normal-programming Ride",
     date: "August 1, 2026",
     alt: "",
   },
