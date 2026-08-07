@@ -4,10 +4,8 @@ Site for a small DC-based cycling club.
 
 # Updating posters
 
-1. Drop the poster image in:  public/content/posters/
-2. Navigate to src/content/index.js
-   * Add a json entry to the POSTERS list 
-   * Set featuredPosterId to the new poster's id.
+Name the poster `<Name>_<YYYY-MM-DD>.png` (e.g. `Bethesda-Ride_2026-08-08.png`), drop it in `public/content/posters/`, and push to main. Hyphens become spaces in the title.
+
 Supported image formats: jpg, jpeg, png, webp, gif
 
 # Running Locally

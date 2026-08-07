@@ -15,6 +15,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Sync posters
+        run: |
+          node scripts/sync-posters.mjs
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git commit -am "Sync poster index" && git push)
       - run: npm install
       - run: npm run build
       - uses: peaceiris/actions-gh-pages@v4
