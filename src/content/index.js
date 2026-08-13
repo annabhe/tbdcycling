@@ -11,19 +11,24 @@
  * ─────────────────────────────────────────────────────────
  */
 
-export const UPCOMING_RIDES = [
-  { id: "aug-15-2026", date: "August 15, 2026", name: "Military Road to Rare Bird" },
-]
+export const UPCOMING_RIDES = []
 
 // ── Featured poster ───────────────────────────────────────
 // This poster is displayed at the top of the home page.
 
-export const featuredPosterId = "2026-08-08";
+export const featuredPosterId = "2026-08-15";
 
 // ── Posters ──────────────────────────────────────────────
 // All posters appear in the grid. 
 
 export const POSTERS = [
+  {
+    id: "2026-08-15",
+    src: "content/posters/2026-08-15.png",
+    title: "Poolesville Farm Ride",
+    date: "August 15, 2026",
+    alt: "",
+  },
   {
     id: "2026-08-08",
     src: "content/posters/2026-08-08.png",
