@@ -51,7 +51,7 @@ export const TBDROUTES = [
   {
     "name": "ART-Sligo-RCP Loop",
     "url": "https://www.strava.com/routes/3406804283534078174",
-    "start": "Georgetown CCT Trailhead",
+    "start": "Ice Cream Jubilee in Navy Yard",
     "miles": "33",
     "coffee": "Vigilante Coffee"
   }
