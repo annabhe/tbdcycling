@@ -14,7 +14,7 @@ export const TBDROUTES = [
     "coffee": "Vigilante Coffee"
   },
   {
-    "name": "Oxon Hill",
+    "name": "Oxon Hill to Alexandria",
     "url": "https://www.strava.com/routes/3353375041102415858",
     "start": "Ice Cream Jubilee in Navy Yard",
     "miles": "18",
@@ -35,9 +35,16 @@ export const TBDROUTES = [
     "coffee": "Rare Bird Coffee"
   },
   {
-    "name": "Caffe Amouri Military-Custis",
+    "name": "Arlington Loop Caffe Amouri",
+    "url": "https://www.strava.com/routes/3345811577896555370",
+    "start": "Gravelly Point",
+    "miles": "28",
+    "coffee": "Caffe Amouri"
+  },
+  {
+    "name": "Military-Custis to Caffe Amouri",
     "url": "https://www.strava.com/routes/3460282580398895004",
-    "start": "Gateway Park Rosslym",
+    "start": "Gateway Park Rosslyn",
     "miles": "26",
     "coffee": "Caffe Amouri"
   },
