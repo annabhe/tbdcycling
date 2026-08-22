@@ -4,9 +4,9 @@
  * ─────────────────────────────────────────────────────────
  *
  *  HOW TO ADD A NEW RIDE POSTER
- *  1. Drop the poster image in:  public/content/posters/
- *  2. Add an entry to POSTERS below (newest first).
- *  3. Set featuredPosterId to the new poster's id.
+ *  Drop it in public/content/posters/ named <Name>_<YYYY-MM-DD>.png
+ *  and push to main. POSTERS and featuredPosterId below are written
+ *  automatically; titles you edit by hand are kept.
  *  Supported image formats: jpg, jpeg, png, webp, gif
  * ─────────────────────────────────────────────────────────
  */
@@ -211,8 +211,6 @@ export const POSTERS = [
     date: "January 03, 2026",
     alt: "Ride poster",
   },
-
-
 ];
 
 // ── Group photos ─────────────────────────────────────────
