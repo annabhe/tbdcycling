@@ -16,12 +16,19 @@ export const UPCOMING_RIDES = []
 // ── Featured poster ───────────────────────────────────────
 // This poster is displayed at the top of the home page.
 
-export const featuredPosterId = "2026-08-15";
+export const featuredPosterId = "2026-08-23";
 
 // ── Posters ──────────────────────────────────────────────
 // All posters appear in the grid. 
 
 export const POSTERS = [
+  {
+    id: "2026-08-23",
+    src: "content/posters/2026-08-23.png",
+    title: "Rare Bird a la MS Paint",
+    date: "August 23, 2026",
+    alt: "",
+  },
   {
     id: "2026-08-15",
     src: "content/posters/2026-08-15.png",
