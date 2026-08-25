@@ -25,7 +25,7 @@ export const POSTERS = [
   {
     id: "2026-08-23",
     src: "content/posters/2026-08-23.png",
-    title: "Rare Bird a la MS Paint",
+    title: "Custis Rare Bird a la MS Paint",
     date: "August 23, 2026",
     alt: "",
   },
