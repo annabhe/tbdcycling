@@ -16,12 +16,40 @@ export const UPCOMING_RIDES = []
 // ── Featured poster ───────────────────────────────────────
 // This poster is displayed at the top of the home page.
 
-export const featuredPosterId = "2026-08-23";
+export const featuredPosterId = "2026-10-03";
 
 // ── Posters ──────────────────────────────────────────────
 // All posters appear in the grid. 
 
 export const POSTERS = [
+  {
+    id: "2026-10-03",
+    src: "content/posters/2026-10-03.png",
+    title: "Alexandria to Hypergoat a la MS Paint",
+    date: "September 12, 2026",
+    alt: "",
+  },
+  {
+    id: "2026-09-26",
+    src: "content/posters/2026-09-26.png",
+    title: "CCT to Ceremony a la BenLin",
+    date: "September 26, 2026",
+    alt: "",
+  },
+  {
+    id: "2026-09-19",
+    src: "content/posters/2026-09-19.png",
+    title: "CCT to Ceremony a la Apple",
+    date: "September 19, 2026",
+    alt: "",
+  },
+  {
+    id: "2026-09-12",
+    src: "content/posters/2026-09-12.png",
+    title: "Custis W&OD Caffe Amouri a la MS Paint",
+    date: "September 12, 2026",
+    alt: "",
+  },
   {
     id: "2026-08-23",
     src: "content/posters/2026-08-23.png",
